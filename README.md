@@ -19,26 +19,26 @@ Quando o mestre entregar algum enigma para cima de vocês, todos os player poder
 E você, reizinho injustiçado das perícias, ninja das linguagens e codificações, pode conversar com o mestre e ver se todo esse conhecimento acumulado não pode virar uma vantagem!
 
 ## Nossa interface:
-![cripto-rpg](LINK DO SCREENSHOT)
+![cripto-rpg](src/img/criptoRPG.png)
 
 Nossa interface é simples, pensada para que vocês não precisem gastar mais tempo do quê o necessário no processo de criptografar/descriptografar.
 
 Dividimos a tela entre o mestre e os aventureiros, dessa forma cada um tem seu espaço e não precisa se preocupar em acabar utilizando o mecanismo do outro, pois cada um tem seus espaços de texto, botões e area de resposta.
 
-### Como funciona:
-* Mestre:
-[]Insere a mensagem que será codificada;
-[]Rola um D20 para definir a chave do código;
-[]Insere a chave no local indicado;
-[]Clica no botão para codificar;
-[]Passa a mensagem codificada para os aventureiros;
+## Como funciona:
+### Mestre:
+* Insere a mensagem que será codificada
+* Rola um D20 para definir a chave do código
+* Insere a chave no local indicado
+* Clica no botão para codificar
+* Passa a mensagem codificada para os aventureiros
 
-* Aventureiros:
-[]Inserem a mensagem recebida do mestre no local indicado;
-[]Rolam um D20, em seus respectivos turnos, para tentar encontrar a chave para descriptografar a mensagem;
-[]Inserem a suposta chave no local indicado;
-[]Clicam no botão para descodificar a mensagem;
-[]Deu certo? Comemorem!
-[]Não deu certo? Tentem de novo!
+### Aventureiros:
+* Inserem a mensagem recebida do mestre no local indicado
+* Rolam um D20, em seus respectivos turnos, para tentar encontrar a chave para descriptografar a mensagem
+* Inserem a suposta chave no local indicado
+* Clicam no botão para descodificar a mensagem
+* Deu certo? Comemorem!
+* Não deu certo? Tentem de novo!
 
-### Que o D20 esteja com você!
+# Que o D20 esteja com você!

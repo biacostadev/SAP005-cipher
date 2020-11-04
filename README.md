@@ -19,9 +19,12 @@ Quando o mestre entregar algum enigma para cima de vocês, todos os player poder
 E você, reizinho injustiçado das perícias, ninja das linguagens e codificações, pode conversar com o mestre e ver se todo esse conhecimento acumulado não pode virar uma vantagem!
 
 ## Nossa interface:
+![cripto-rpg-papel](src/img/criptoRPGpapel.jpg)
+
+Nossa interface é simples, pensada para que vocês não precisem gastar mais tempo do quê o necessário no processo de criptografar/descriptografar.
+
 ![cripto-rpg](src/img/criptoRPG.png)
 
-Nossa interface é simples, pensada para que vocês não precisem gastar mais tempo do quê o necessário no processo de criptografar/descriptografar.<br/>
 Dividimos a tela entre o mestre e os aventureiros, dessa forma cada um tem seu espaço e não precisa se preocupar em acabar utilizando o mecanismo do outro, pois cada um tem seus espaços de texto, botões e area de resposta.
 
 ## Como funciona:

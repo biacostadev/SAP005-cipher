@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d1c39b;
+    text-align: center;
+    padding-top: 3vh;
+    font-family: 'Roboto', sans-serif;
+    color: #120d00;
+}
+
+h1 {
+    font-family: 'Syne Mono', monospace;
+    font-size: 4em;
+    color: #2e2305;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    height: 79vh;
+    padding-top: 1vh;
+    background-image: url("img/d20.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 15em;
+}
+
+.codificador,
+.decodificador {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 70vh;
+}
+
+.mestre,
+.aventureiro {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+.textarea {
+    text-transform: uppercase;
+    height: 15vh;
+    width: 40vw;
+    font-size: 1.3em;
+    background: none;
+    border: 2px solid #5c4d21;
+}
+
+.offset {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    width: 25vw;
+    text-align: left;
+    margin-right: 1em;
+    font-size: 1.2em;
+}
+
+input {
+    font-size: 1.5em;
+    text-align: center;
+    width: 4em;
+    background: none;
+    border: 2px solid #5c4d21;
+}
+
+button {
+    height: 3em;
+    width: 10em;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #5c4d21;
+    color: #d1c39b;
+    border: none;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #2e2305;
+}
+
+.fraseFinal {
+    width: 35vw;
+    height: 20vh;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+    overflow: auto;
+}
+
+footer {
+    background-color: #5c4d21;
+    color: #ffffff;
+    line-height: 2em;
+    height: 5vh;
+}

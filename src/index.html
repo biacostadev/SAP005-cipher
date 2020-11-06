@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="img/iconPreto.ico">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Syne+Mono&family=Syne+Tactile&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Syne+Mono&family=Syne+Tactile&display=swap"
+        rel="stylesheet">
     <title>CRIPTO RPG - Cifra de César</title>
 </head>
+
 <body>
     <header>
         <h1>CRIPTO RPG</h1>
@@ -21,29 +24,34 @@
                 <h3>Role um D20 para estabelecer a chave da mensagem.</h3>
                 <input type="number" id="offsetCode" placeholder="D20" min="1" max="20">
             </div>
-            
+
             <button id="codificar">codificar</button>
-            
+
             <h3 class="fraseFinal" id="fraseCodificada"></h3>
         </div>
         <div class="decodificador">
             <h1 class="aventureiro">Aventureiro</h1>
             <h2>Entre com a mensagem a ser decifrada:</h2>
             <textarea id="textDecode" class="textarea" placeholder="Digite sua mensagem aqui"></textarea>
-            
+
             <div class="offset">
                 <h3>Faça seu teste rolando um D20 e tente revelar a mensagem.</h3>
                 <input type="number" id="offsetDecode" placeholder="D20" min="1" max="20">
             </div>
-        
+
             <button id="decodificar">decodificar</button>
-        
+
             <h3 class="fraseFinal" id="fraseDecodificada"></h3>
         </div>
     </main>
     <footer>
-        <p>Projeto desenvolvido por <a href="http://github.com/biacostadev">@biacostadev</a>  durante o <a href="http://www.laboratoria.la/br">Bootcamp Laboratória</a>.</p>
-    </footer>  
+        <div class="contato">
+            <p>Projeto desenvolvido por <a>@biacostadev</a> durante o <a href="http://www.laboratoria.la/br">Bootcamp
+                    Laboratória</a>.</p>
+            <p>Me encontre aqui: <a href="http://github.com/biacostadev">GitHub</a> | <a
+                    href="http://www.linkedin.com/in/biacostadev/">LinkedIn</a></p>
+        </div>
+    </footer>
     <script src="index.js" type="module"></script>
 </body>
 

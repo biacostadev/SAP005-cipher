@@ -109,9 +109,17 @@ button:hover {
 footer {
     background-color: #5c4d21;
     color: #ffffff;
-    font-size: 1.3em;
-    line-height: 2.3em;
+    font-size: 1.2em;
+    line-height: 1.2em;
     height: 8vh;
+}
+
+.contato {
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 0.1em;
 }
 
 a {

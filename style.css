@@ -22,7 +22,7 @@ h1 {
 main {
     display: flex;
     justify-content: space-around;
-    height: 79vh;
+    height: 75vh;
     padding-top: 1vh;
     background-image: url("img/d20.png");
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ main {
 .decodificador {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 40vw;
     height: 70vh;
@@ -50,7 +50,8 @@ h2 {
 }
 
 .textarea {
-    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 1em;
     height: 15vh;
     width: 40vw;
     font-size: 1.3em;
@@ -71,6 +72,7 @@ h3 {
 }
 
 input {
+    border-radius: 10px;
     font-size: 1.5em;
     text-align: center;
     width: 4em;
@@ -79,14 +81,16 @@ input {
 }
 
 button {
-    height: 3em;
-    width: 10em;
-    font-size: 1.2em;
+    height: 2.5em;
+    width: 8em;
+    font-size: 1.5em;
     cursor: pointer;
     background-color: #5c4d21;
     color: #d1c39b;
     border: none;
+    border-radius: 10px;
     text-transform: uppercase;
+    transition: background-color 500ms;
 }
 
 button:hover {
@@ -105,6 +109,17 @@ button:hover {
 footer {
     background-color: #5c4d21;
     color: #ffffff;
-    line-height: 2em;
-    height: 5vh;
+    font-size: 1.3em;
+    line-height: 2.3em;
+    height: 8vh;
+}
+
+a {
+    text-decoration: none;
+    color: #ffe521;
+    transition: color 500ms;
+}
+
+a:hover {
+    color: #d1c39b;
 }

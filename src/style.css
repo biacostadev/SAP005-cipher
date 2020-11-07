@@ -7,7 +7,7 @@
 body {
     background-color: #d1c39b;
     text-align: center;
-    padding-top: 3vh;
+    padding-top: 2vh;
     font-family: 'Roboto', sans-serif;
     color: #120d00;
 }
@@ -17,6 +17,9 @@ h1 {
     font-size: 4em;
     color: #2e2305;
     text-decoration: underline;
+}
+.menu {
+    display: none;
 }
 
 main {
@@ -106,20 +109,14 @@ button:hover {
     overflow: auto;
 }
 
-footer {
+.contato {
     background-color: #5c4d21;
     color: #ffffff;
-    font-size: 1.2em;
-    line-height: 1.2em;
-    height: 8vh;
-}
-
-.contato {
-    height: 8vh;
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding-top: 0.1em;
+    font-size: 1.2em;
+    padding: 1vh;
 }
 
 a {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="img/iconPreto.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Syne+Mono&family=Syne+Tactile&display=swap"
         rel="stylesheet">
     <title>CRIPTO RPG - Cifra de César</title>
@@ -14,9 +15,17 @@
 <body>
     <header>
         <h1>CRIPTO RPG</h1>
+        <nav class="menu">
+            <p>VOCÊ É:</p>
+            <ul>
+              <li><a href="#mestre">Mestre</a></li>
+              <li><a href="#aventureiro">Aventureiro</a></li>
+            </ul>
+          </nav>
     </header>
     <main>
         <div class="codificador">
+            <a name="mestre"></a>
             <h1 class="mestre">Mestre</h1>
             <h2>Entre com a mensagem a ser codificada:</h2>
             <textarea id="textCode" class="textarea" placeholder="Digite sua mensagem aqui"></textarea>
@@ -30,6 +39,7 @@
             <h3 class="fraseFinal" id="fraseCodificada"></h3>
         </div>
         <div class="decodificador">
+            <a name="aventureiro"></a>
             <h1 class="aventureiro">Aventureiro</h1>
             <h2>Entre com a mensagem a ser decifrada:</h2>
             <textarea id="textDecode" class="textarea" placeholder="Digite sua mensagem aqui"></textarea>
